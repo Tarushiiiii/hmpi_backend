@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from calc_hmpi import calculate_hmpi   # adjust if folder nesting changes
+from model.calc_hmpi import calculate_hmpi
 import os
 
 app = Flask(__name__)
